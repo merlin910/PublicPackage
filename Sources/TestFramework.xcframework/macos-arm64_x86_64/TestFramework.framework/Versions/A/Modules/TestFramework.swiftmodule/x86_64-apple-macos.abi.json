@@ -1,0 +1,78 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyFramework",
+        "printedName": "MyFramework",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyFramework",
+                "printedName": "TestFramework.MyFramework",
+                "usr": "s:13TestFramework02MyB0V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13TestFramework02MyB0VACycfc",
+            "mangledName": "$s13TestFramework02MyB0VACycfc",
+            "moduleName": "TestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "doSomething",
+            "printedName": "doSomething()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TestFramework02MyB0V11doSomethingSSyFZ",
+            "mangledName": "$s13TestFramework02MyB0V11doSomethingSSyFZ",
+            "moduleName": "TestFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13TestFramework02MyB0V",
+        "mangledName": "$s13TestFramework02MyB0V",
+        "moduleName": "TestFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
